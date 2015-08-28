@@ -1,0 +1,27 @@
+/*
+** evaluate_postfix.c for Bistromathique in /home/tosi_t//BISTRO/src/shunting-yard
+** 
+** Made by timothee tosi
+** Login   <tosi_t@epitech.net>
+** 
+** Started on  Sat Aug 10 11:19:40 2013 timothee tosi
+** Last update Sat Aug 10 12:17:03 2013 timothee tosi
+*/
+
+#include		"shunting_yard.h"
+#include		"my_flags.h"
+
+
+
+const int		evaluate_postfix(t_op *operation)
+{
+  t_shunting		stack;
+
+  if ((stack.operator_stack = new_linked_list()) == NULL)
+    return (RETURN_FAILURE);
+
+
+
+  free(shunting.operator_stack);
+  return (RETURN_SUCCESS);
+}
